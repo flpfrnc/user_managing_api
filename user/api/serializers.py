@@ -10,7 +10,6 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 class ProfileSerializer(serializers.ModelSerializer):
-    related_user = UserSerializer() 
     
     class Meta:
         model = Profile
